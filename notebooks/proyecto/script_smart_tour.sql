@@ -1,0 +1,78 @@
+CREATE TABLE municipios (
+    id SERIAL PRIMARY KEY,
+    municipio VARCHAR(150) NOT NULL,
+    cod_municipio INTEGER NOT NULL,
+    provincia VARCHAR(50) NOT NULL,
+    cod_provincia INTEGER NOT NULL,
+    cod_ine INTEGER NOT NULL,
+    poblacion INTEGER NOT NULL,
+    mancomunidades TEXT,
+    entidades_locales_menores TEXT,
+    comarca VARCHAR(150),
+    longitud DECIMAL(12,6) NOT NULL,
+    latitud DECIMAL(12,6) NOT NULL,
+    coordenadax DECIMAL(15,2) NOT NULL,
+    coordenaday DECIMAL(15,2) NOT NULL
+);
+
+CREATE TABLE hoteles (
+    id SERIAL PRIMARY KEY,
+    establecimiento VARCHAR(255),
+    n_registro VARCHAR(100),
+    codigo VARCHAR(100),
+    tipo VARCHAR(100),
+    categoria VARCHAR(100),
+    especialidades TEXT,
+    clase VARCHAR(100),
+    nombre VARCHAR(255),
+    direccion TEXT,
+    codigo_postal VARCHAR(10),
+    provincia VARCHAR(100),
+    municipio VARCHAR(150),
+    localidad VARCHAR(150),
+    nucleo VARCHAR(150),
+    telefono_1 VARCHAR(50),
+    telefono_2 VARCHAR(50),
+    telefono_3 VARCHAR(50),
+    email VARCHAR(255),
+    web TEXT,
+    q_calidad VARCHAR(100),
+    posada_real VARCHAR(100),
+    plazas DECIMAL(10,2),
+    gps_longitud DECIMAL(12,6),
+    gps_latitud DECIMAL(12,6),
+    accesible_discapacidad VARCHAR(100),
+    column_27 TEXT,
+    posicion TEXT
+);
+CREATE TABLE monumentos (
+    id SERIAL PRIMARY KEY,
+    identificador INTEGER NOT NULL,
+    nombre VARCHAR(255) NOT NULL,
+    tipo_monumento VARCHAR(150) NOT NULL,
+    identificador_bien_interes_cultural VARCHAR(100),
+    calle VARCHAR(255),
+    clasificacion VARCHAR(150),
+    tipo_construccion VARCHAR(150),
+    codigo_postal VARCHAR(10),
+    descripcion TEXT,
+    periodo_historico VARCHAR(150),
+    coordenadas_latitud DECIMAL(12,8) NOT NULL,
+    coordenadas_longitud DECIMAL(12,8) NOT NULL,
+    poblacion_provincia VARCHAR(100),
+    poblacion_municipio VARCHAR(150),
+    poblacion_localidad VARCHAR(150),
+    pto_geolocalizado TEXT NOT NULL,
+    poblacion VARCHAR(150),
+    coordenadas TEXT NOT NULL
+);
+
+CREATE TABLE oficinas_turismo (
+    id SERIAL PRIMARY KEY,
+    provincia VARCHAR(100) NOT NULL,
+    localidad VARCHAR(150) NOT NULL,
+    tipo VARCHAR(100),
+    nombre_recurso_turistico VARCHAR(255) NOT NULL,
+    establecimiento VARCHAR(255),
+    ambito VARCHAR(100)
+);
