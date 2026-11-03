@@ -1,0 +1,100 @@
+Municipios
+
+Data columns (total 13 columns):
+ #   Column                     Non-Null Count  Dtype 
+---  ------                     --------------  ----- 
+ 0   Municipio                  2248 non-null   object
+ 1   Cod_Municipio              2248 non-null   int64 
+ 2   Provincia                  2248 non-null   object
+ 3   Cod_Provincia              2248 non-null   int64 
+ 4   Cod_INE                    2248 non-null   int64 
+ 5   Población                  2248 non-null   int64 
+ 6   Mancomunidades             2037 non-null   object
+ 7   Entidades_Locales_Menores  441 non-null    object
+ 8   Comarca                    38 non-null     object
+ 9   Longitud                   2248 non-null   object
+ 10  Latitud                    2248 non-null   object
+ 11  CoordenadaX                2248 non-null   object
+ 12  CoordenadaY                2248 non-null   object
+dtypes: int64(4), object(9)
+memory usage: 228.4+ KB
+None
+
+
+Hoteles
+
+Data columns (total 27 columns):
+ #   Column                                 Non-Null Count  Dtype  
+---  ------                                 --------------  -----  
+ 0   ï»¿Establecimiento                     35930 non-null  object 
+ 1   N.Registro                             35567 non-null  object 
+ 2   Codigo                                 363 non-null    object 
+ 3   Tipo                                   35927 non-null  object 
+ 4   CategorÃ­a                             29233 non-null  object 
+ 5   Especialidades                         261 non-null    object 
+ 6   Clase                                  360 non-null    object 
+ 7   Nombre                                 35925 non-null  object 
+ 8   DirecciÃ³n                             35750 non-null  object 
+ 9   C.Postal                               35785 non-null  object 
+ 10  Provincia                              35925 non-null  object 
+ 11  Municipio                              35798 non-null  object 
+ 12  Localidad                              35797 non-null  object 
+ 13  Nucleo                                 33425 non-null  object 
+ 14  TelÃ©fono 1                            34763 non-null  object 
+ 15  TelÃ©fono 2                            8345 non-null   object 
+ 16  TelÃ©fono 3                            372 non-null    object 
+ 17  Email                                  18583 non-null  object 
+ 18  web                                    5807 non-null   object 
+ 19  Q Calidad                              17 non-null     object 
+ 20  Posada Real                            31 non-null     object 
+ 21  Plazas                                 27040 non-null  float64
+ 22  GPS.Longitud                           7451 non-null   float64
+ 23  GPS.Latitud                            7448 non-null   float64
+ 24  accesible a personas con discapacidad  10008 non-null  object 
+ 25  Column 27                              0 non-null      float64
+ 26  PosiciÃ³n                              7448 non-null   object 
+dtypes: float64(4), object(23)
+memory usage: 7.4+ MB
+None
+
+Monumentos
+
+Data columns (total 18 columns):
+ #   Column                            Non-Null Count  Dtype  
+---  ------                            --------------  -----  
+ 0   ï»¿identificador                  1378 non-null   int64  
+ 1   nombre                            1378 non-null   object 
+ 2   tipoMonumento                     1378 non-null   object 
+ 3   identificadorBienInteresCultural  1112 non-null   object 
+ 4   calle                             886 non-null    object 
+ 5   clasificacion                     1185 non-null   object 
+ 6   tipoConstruccion                  1260 non-null   object 
+ 7   codigoPostal                      1274 non-null   float64
+ 8   Descripcion                       1368 non-null   object 
+ 9   periodoHistorico                  1260 non-null   object 
+ 10  coordenadas_latitud               1378 non-null   float64
+ 11  coordenadas_longitud              1378 non-null   float64
+ 12  poblacion_provincia               1377 non-null   object 
+ 13  poblacion_municipio               1377 non-null   object 
+ 14  poblacion_localidad               1377 non-null   object 
+ 15  pto_geolocalizado                 1378 non-null   object 
+ 16  poblacion                         1377 non-null   object 
+ 17  coordenadas                       1378 non-null   object 
+dtypes: float64(3), int64(1), object(14)
+memory usage: 193.9+ KB
+None
+
+Oficinas de Turismo
+
+Data columns (total 6 columns):
+ #   Column                         Non-Null Count  Dtype 
+---  ------                         --------------  ----- 
+ 0   ï»¿Provincia                   263 non-null    object
+ 1   Localidad                      263 non-null    object
+ 2   Tipo                           245 non-null    object
+ 3   Nombre del recurso turÃ­stico  263 non-null    object
+ 4   Establecimiento                261 non-null    object
+ 5   Ãmbito                        258 non-null    object
+dtypes: object(6)
+memory usage: 12.5+ KB
+None
