@@ -1,0 +1,36 @@
+Reservas Hoteles
+
+Data columns (total 10 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   id_reserva      17838 non-null  int64  
+ 2   hotel_key        17838 non-null  object 
+ 3   fecha_checkin_key   17838 non-null  object 
+ 4   fecha_checkout_key  17838 non-null  object 
+ 5   noches          17838 non-null  int64  
+ 7   precio_noche    17838 non-null  float64
+
+Visitas Monumentos
+
+Data columns (total 6 columns):
+ #   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   id_visita       60000 non-null  int64 
+ 1   monumento_key    60000 non-null  int64 
+ 2   fecha_key           60000 non-null  object
+ 3   num_visitantes  60000 non-null  int64 
+ 4   precio_entrada  60000 non-null  int64 
+ 5   tipo_visitante  60000 non-null  object
+
+
+Visitas Oficinas
+
+Data columns (total 5 columns):
+ #   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   id_visita       12000 non-null  int64 
+ 1   oficina_key      12000 non-null  int64 
+ 2   fecha_key           12000 non-null  object
+ 3   num_visitantes  12000 non-null  int64 
+ 4   motivo          12000 non-null  object
+

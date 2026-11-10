@@ -1,0 +1,50 @@
+Reservas Hoteles
+
+Data columns (total 10 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   id_reserva      17838 non-null  int64  
+ 1   id_viajero      17838 non-null  int64  
+ 2   id_hotel        17838 non-null  object 
+ 3   fecha_checkin   17838 non-null  object 
+ 4   fecha_checkout  17838 non-null  object 
+ 5   noches          17838 non-null  int64  
+ 6   num_huespedes   17838 non-null  int64  
+ 7   precio_noche    17838 non-null  float64
+ 8   total           17838 non-null  float64
+ 9   canal           17838 non-null  object 
+dtypes: float64(2), int64(4), object(4)
+memory usage: 1.4+ MB
+None
+
+
+Visitas Monumentos
+
+Data columns (total 6 columns):
+ #   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   id_visita       60000 non-null  int64 
+ 1   id_monumento    60000 non-null  int64 
+ 2   fecha           60000 non-null  object
+ 3   num_visitantes  60000 non-null  int64 
+ 4   precio_entrada  60000 non-null  int64 
+ 5   tipo_visitante  60000 non-null  object
+dtypes: int64(4), object(2)
+memory usage: 2.7+ MB
+None
+
+
+Visitas Oficinas
+
+Data columns (total 5 columns):
+ #   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   id_visita       12000 non-null  int64 
+ 1   id_oficina      12000 non-null  int64 
+ 2   fecha           12000 non-null  object
+ 3   num_visitantes  12000 non-null  int64 
+ 4   motivo          12000 non-null  object
+dtypes: int64(3), object(2)
+memory usage: 468.9+ KB
+None
+
